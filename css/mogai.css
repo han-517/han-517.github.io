@@ -1,0 +1,53 @@
+
+/* 隐藏回到顶部按钮，替换为up酱 */
+
+#go-up i {
+    display: none;
+    background-color: transparent !important;
+}
+
+#go-up {
+    background-color: transparent !important;
+}
+
+#upj {
+    transform: translate(-70px, -80px) !important;
+}
+/*新版3.0.0以上添加up酱置顶ico图标上移问题*/
+.fas.fa-arrow-up {
+    line-height: 2;
+}
+/*新版3.0.0以上添加up酱置顶ico图标上移问题*/
+.fas.fa-arrow-up {
+    line-height: 2;
+}
+/* 博主昵称颜色 */
+.author-info__name {
+    color: #ff7242;
+}
+/* 页脚透明 */
+
+#footer {
+    background: transparent !important;
+}
+/* 滚动条 */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e58a8a;
+    background-image: -webkit-linear-gradient( 45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #e58a8a;
+}
